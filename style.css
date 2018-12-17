@@ -1,30 +1,77 @@
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 
-html{
-	background: navy;
+
+html, body{
 	width: 100%;
-	height: 100%;
-	border: 
+	height: 100%; 
 }
-
 .welcome {
-	position: absolute;
-	top: 50%;
-	right: 40%;
-	
-	
+	 position: relative;
+  width: 100%;
+  height: 100%;
+  background: url('assets/welcome2.jpg') center center no-repeat;
+  background-size: cover;
+  opacity: 1;
 }
-.welcome h1{
-
-font-family: arial;
-font-size: 24px;
-color: white;
-text-align: center;
-
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:1;
+  color: white;
+  font-size: 28px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
 }
 
-.welcome p{
-	font-family: arial;
-	font-size: 16px;
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay a{
+	text-decoration: none;
 	color: white;
-	text-align: center;
+  color: white;
+  padding: 8px 16px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  opacity: .8;
+	
 }
+
+.overlay a:hover{
+  background-color: #f44336;
+}
+
+nav ul {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background-color:  white	;
+  border-bottom: solid;
+  font-family: 'Poiret One', cursive;
+  font-size: 24px;
+  font-style: bold;
+}
+nav ul li {
+  display: inline-block;
+  margin: 55px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: green;
+
+	
