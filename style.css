@@ -8,105 +8,20 @@ html, body{
 	background-image: linear-gradient(to left, #ebebe0, white);
 	font-family: 'Poiret One', cursive;
 }
-.welcome {
-	 position: relative;
-  width: 100%;
-  height: 100%;
-  background: url('assets/welcome2.jpg') center center no-repeat;
-  background-size: cover;
-  opacity: 1;
-}
-.overlay {
-  position: absolute; 
-  bottom: 0; 
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1; 
-  width: 100%;
-  transition: .5s ease;
-  opacity:1;
-  color: white;
-  font-size: 28px;
-  padding: 20px;
-  text-align: center;
-  font-family: 'Poiret One', cursive;
-}
 
 
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.overlay a{
-	text-decoration: none;
-	color: white;
-  color: white;
-  padding: 8px 16px;
-  text-align: center; 
-  text-decoration: none;
-  display: inline-block;
-  opacity: .8;
-	
-}
-
-.overlay a:hover{
-  background-color: #f44336;
-}
-
-.header {
-	 top: 0;
-  min-height: 15vh;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
-  padding-top: 5px;
-}
-
-.header h1,h2{
-	font-family: 'Poiret One', cursive;
-	font-size: 24px;
-	text-align: center;
-}
-.header p{
-font-family: 'Poiret One', cursive;
-font-size: 20px;
-text-align: center;
-font-weight: bold;
-}
-
-nav ul {
-  text-align: center;
-  background-color: #000033;
-  width: 100%;
-  font-family: 'Poiret One', cursive;
-  font-size: 18px;
-  font-weight: bold;
-}
-nav ul li {
-  display: inline-block;
-  margin: 55px;
-  margin-bottom: 25px;
-  margin-top: 25px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-nav ul li a:hover {
-  color: gray;
-}
-
-.practice{
-	font-family: 'Poiret One', cursive;
-	font-size: 18px;
-	text-align: center;
-	background: 	#80d4ff;
-	color: white;	
-}
 
 .social {
 	text-align: center;
+}
+
+.social img {
+	border-radius: 25px 25px 25px 25px;
+}
+
+.social li {
+	list-style: none;
+	text-decoration: none;
 }
 	/* Style all font awesome icons */
 .fa {
